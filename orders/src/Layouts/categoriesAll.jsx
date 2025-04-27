@@ -21,7 +21,6 @@ function CategoriesAll() {
               {data.map(item => (
                   <div key={item.shortcode}>
                     <p>{item.display_name}</p>
-                    {/* Use Link for navigation */}
                     <button href={`/categories/${item.shortcode}`}>View Products</button>
                   </div>
               ))}
